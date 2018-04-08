@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+#body_sign_in{
+  height: 100%;
+}
+#map {
+  z-index: -1; position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+
+#map img {
+ max-width: none;
+ min-width: 0px;
+ height: auto;
+}
+
+
+.card-about {
+        float: none; /* Added */
+        margin-top: 200px; /* Added */
+        margin-left: 300px;
+        border: none;
+}
+
+.card-title{
+      font-size : 64px;/* Added */
+}
+
+.card-about h3{
+        margin-bottom: 30px; /* Added */
+        line-height: 40px;
+}
+
+.card-about a{
+        background-color : #1919ea;
+}
+
+/* SIGN IN PAGE */
+
+.sign_in{
+  height:100%;
+  width : 100%;
+}
+
+.sign_in h1{
+  text-align: center;
+  line-height: 80px;
+}
+
+.sign_in p {
+   line-height:50px;
+}
+
+#register_form_cls{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  height : 100%;
+}
+
+
+#sign_in_map{
+  display : flex;
+  height : 100%;
+}
+
+#register_map{
+  display : flex;
+  height : 100%;
+}
+
+#map_sign_in {
+  z-index: -1; position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+
+.form-input{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.container-full {
+  height:1024px;
+}
